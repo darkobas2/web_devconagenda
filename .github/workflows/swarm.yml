@@ -17,7 +17,7 @@ jobs:
         id: swarm-upload
         uses: ethersphere/swarm-actions/upload-dir@latest
         with:
-          bee-url: https://gateway.fairdatasociety.org
+          bee-url: https://gateway.fairdatasociety.org/
           dir: ./public/
           index-document: index.html
           error-document: 404/index.html
